@@ -55,7 +55,7 @@ class Processor:
 
         self.log("writing out logs")
 
-        with open(f'logs.csv', mode='a') as csv_file:
+        with open(f'log/logs.csv', mode='a') as csv_file:
             fieldnames = ["when", "num_tasks", "workers", "sleep_time", "message"]
 
             writer = csv.writer(csv_file, delimiter=',')
