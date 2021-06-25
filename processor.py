@@ -53,8 +53,8 @@ class Processor:
 
         self.log("saved data")
 
-        self.logs("writing out logs")
-        
+        self.log("writing out logs")
+
         with open(f'logs.csv', mode='a') as csv_file:
             fieldnames = ["when", "num_tasks", "workers", "sleep_time", "message"]
 
