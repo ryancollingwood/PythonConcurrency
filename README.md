@@ -2,6 +2,8 @@
 
 Playing around with different ways of doing things concurrently in Python, for IO bound operations.
 
-Starting with multiprocessing pools, will then explore other options.
+At present have approached this with:
+* Multiprocessing
+* Threads
 
 ![](static/tasks.png)
